@@ -1,0 +1,30 @@
+/*** *** *** INFO BAR:  *** *** ***/
+.infobar {
+  background-color: $white-color;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 27px;
+  overflow: auto;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 21px;
+
+  &__content {
+    color: $primary-color;
+    float: left;
+    font-size: 22px;
+    padding: 13px 0;
+    text-align: center;
+    transition: all 0.3s ease;
+    width: 20%;
+  }
+
+  &__short-text {
+    display: block;
+    font-size: 14px;
+    // @media screen and (max-width: 400px)
+    @include respond-below(xxs) {
+      font-size: 10px;
+    }
+  }
+}

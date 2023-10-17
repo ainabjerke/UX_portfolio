@@ -1,0 +1,293 @@
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 8; /* Sit on top */
+  //   padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+
+  &__row {
+    // @media screen and (min-width: 1200px)
+    @include respond-above(lg) {
+      margin-left: 15px;
+      margin-right: 15px;
+      padding: 5rem 6rem;
+    }
+    // @media screen and (min-width: 991px) and (max-width: 1199px)
+    @include respond-between(md, lg) {
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 5rem 0rem;
+    }
+    // @media screen and (min-width: 768px) and (max-width: 990px)
+    @include respond-between(sm, md) {
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 5rem 3rem;
+    }
+    // @media screen and (min-width: 568px) and (max-width: 767px)
+    @include respond-between(xs, sm) {
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 5rem 3rem;
+    }
+    // @media screen and (max-width: 567px)
+    @include respond-below(xs) {
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 5rem 0rem;
+    }
+  }
+
+  .modal-l {
+    &__content {
+      background-color: $medium-dark-grey-color;
+      // background-color: #303d56;
+    }
+
+    &__img {
+      // @media screen and (min-width: 1200px)
+      @include respond-above(lg) {
+        // margin-left: 7%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        padding-top: 75px;
+      }
+      // @media screen and (min-width: 991px) and (max-width: 1199px)
+      @include respond-between(md, lg) {
+        width: 100%;
+        padding-top: 75px;
+      }
+      // @media screen and (min-width: 768px) and (max-width: 990px)
+      @include respond-between(sm, md) {
+        width: 100%;
+        padding-top: 75px;
+      }
+      // @media screen and (min-width: 568px) and (max-width: 767px)
+      @include respond-between(xs, sm) {
+        width: 100%;
+        padding-top: 75px;
+      }
+      // @media screen and (max-width: 567px)
+      @include respond-below(xs) {
+        width: 100%;
+        padding-top: 75px;
+      }
+    }
+
+    &__heading {
+      background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      // @media screen and (min-width: 1200px)
+      @include respond-above(lg) {
+        display: none;
+      }
+      // @media screen and (min-width: 991px) and (max-width: 1199px)
+      @include respond-between(md, lg) {
+        padding: 15px;
+      }
+      // @media screen and (min-width: 768px) and (max-width: 990px)
+      @include respond-between(sm, md) {
+        padding: 15px;
+      }
+      // @media screen and (min-width: 568px) and (max-width: 767px)
+      @include respond-between(xs, sm) {
+        padding: 15px;
+      }
+      // @media screen and (max-width: 567px)
+      @include respond-below(xs) {
+        padding: 15px;
+      }
+    }
+  }
+
+  .modal-r {
+    &__content {
+      // background-color: #303d56;
+      background-color: $medium-dark-grey-color;
+    }
+
+    &__header {
+      font-size: 2.7rem;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+      margin-top: 55px;
+      font-weight: 600;
+      background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &__language {
+      font-size: 1.4rem;
+      padding: 0.35rem 1.2rem;
+      // background-color: #5a4bbf;
+      background-color: $light-purple-color;
+      border-radius: 5px;
+      display: inline;
+      color: #ffffff;
+      margin-left: 1%;
+      // @media screen and (max-width: 567px)
+      @include respond-below(xs) {
+        font-size: 1rem;
+      }
+    }
+
+    &__subheading {
+      font-size: 1.7rem;
+      font-weight: 550;
+      margin-top: 17px;
+      margin-bottom: 10px;
+      //   color: #8193b2;
+      // color: #a5d6ff;
+      color: $pale-blue-color;
+    }
+
+    &__grade--styling {
+      font-size: 20px;
+      margin-left: 20px;
+      // color: #a5d6ff;
+      color: $pale-blue-color;
+    }
+
+    &__grade {
+      font-weight: 600;
+    }
+
+    &__paragraph {
+      font-size: 18px;
+      padding: 8px 0px;
+      // color: #c9d1d9;
+      color: $light-gray-color;
+    }
+
+    &__list--main {
+      padding: 22px;
+      font-size: 17px;
+      // color: #8193b2;
+      color: $pale-gray-color;
+    }
+
+    &__heading--third {
+      background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+      background-clip: border-box;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &__list--second {
+      padding: 22px;
+      font-size: 17px;
+      // color: #8193b2;
+      color: $pale-gray-color;
+    }
+  }
+}
+
+.intro-section-btns {
+  // @media screen and (min-width: 1200px)
+
+  @include respond-above(lg) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    gap: 1rem;
+    // max-width: 536px;
+    // margin-left: 58px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  // @media screen and (min-width: 991px) and (max-width: 1199px)
+  @include respond-between(md, lg) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    gap: 1rem;
+    margin-bottom: 35px;
+  }
+  // @media screen and (min-width: 768px) and (max-width: 990px)
+  @include respond-between(sm, md) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    gap: 1rem;
+  }
+  // @media screen and (min-width: 568px) and (max-width: 767px)
+  @include respond-between(xs, sm) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    gap: 1rem;
+  }
+  // @media screen and (max-width: 567px)
+  @include respond-below(xs) {
+    display: grid;
+    grid-template-columns: repeat(2, -1fr);
+    grid-gap: 2rem;
+    gap: 1rem;
+  }
+}
+
+/* The Close Button */
+.closeOne {
+  align-self: end;
+  font-size: 34px;
+  line-height: 1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1000;
+  border: 1px solid transparent;
+  background: -webkit-linear-gradient(-70deg, #9867f0 0%, #ed4e50 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  top: 6rem;
+  // @media screen and (min-width: 1200px)
+  @include respond-above(lg) {
+    right: 9rem;
+  }
+  // @media screen and (min-width: 991px) and (max-width: 1199px)
+  @include respond-between(md, lg) {
+    right: 3rem;
+  }
+  // @media screen and (min-width: 768px) and (max-width: 990px)
+  @include respond-between(sm, md) {
+    right: 5rem;
+  }
+  // @media screen and (min-width: 568px) and (max-width: 767px)
+  @include respond-between(xs, sm) {
+    right: 5rem;
+  }
+  // @media screen and (max-width: 567px)
+  @include respond-below(xs) {
+    right: 2rem;
+  }
+}
+
+/* The Close Button */
+.closeOne:hover,
+.closeOne:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  filter: brightness(130%);
+}
+
+/* THE UPDATES LINE */
+#updates-line {
+  border: 1px solid #8193b2;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}

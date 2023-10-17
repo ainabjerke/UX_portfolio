@@ -1,0 +1,40 @@
+/**** *** *** ABSTRACT SECTION *** *** ***/
+@import "./abstract/variables";
+@import "./abstract/maps";
+@import "./abstract/mixin";
+
+/*** *** *** COMPONENTS SECTION *** *** ***/
+@import "./components/buttons";
+@import "./components/feedbackMessage";
+@import "./components/loader";
+
+/*** *** *** BASE SECTION *** *** ***/
+@import "./base/reset";
+@import "./base/typography";
+
+/*** *** *** PAGES SECTION *** *** ***/
+@import "./pages/projectLayout";
+@import "./pages/heading";
+@import "../scss/pages/about/caseStudy01.scss";
+@import "../scss/pages/case/caseStudy01Info.scss";
+@import "../scss/pages/detail/caseStudy01empathise.scss";
+
+/*** *** *** LAYOUT SECTION *** *** ***/
+@import "./layout/animation";
+@import "./layout/navigation";
+@import "./layout/navIconMenu";
+@import "./layout/skills";
+@import "./layout/frontend";
+@import "./layout/about";
+@import "./layout/infoBar";
+@import "./layout/footer";
+@import "./layout/workEducation";
+@import "./layout/herobanner";
+@import "./layout/modal";
+@import "./layout/uxDesign";
+
+/**** *** *** ANIMATION SECTION *** *** ***/
+@import "./webAnimations/textHeroBanner";
+@import "./webAnimations/textareaAboutMe";
+@import "./webAnimations/portfolioSkillsFrontend";
+@import "./webAnimations/frontendSlider";

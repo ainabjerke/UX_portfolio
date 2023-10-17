@@ -1,0 +1,126 @@
+/*** *** *** BUTTON SECTION:  *** *** ***/
+
+//--- --- BUTTON STYLE: --- ---//
+.btn {
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &--primary {
+    background: colors(secondary);
+    color: $white-color;
+    font-weight: 500;
+
+    &:hover {
+      background: colors(secondary, light);
+      color: $white-color;
+      text-decoration: none;
+    }
+  }
+
+  &--secondary {
+    background: colors(secondary);
+    color: $white-color;
+    font-weight: 500;
+
+    &:hover {
+      background: colors(secondary, light);
+      color: $white-color;
+    }
+  }
+
+  &--tertiary {
+    background: colors(tertiary);
+    color: $white-color;
+    font-weight: 500;
+
+    &:hover {
+      background: colors(tertiary, light);
+      color: $white-color;
+    }
+  }
+
+  &--warning {
+    background: $red-color;
+    color: $white-color;
+
+    &:hover {
+      filter: brightness(130%);
+      color: $white-color;
+    }
+  }
+
+  &-webpage {
+    background: $secondary-color;
+    color: $white-color;
+    &:hover {
+      filter: brightness(130%);
+      color: $white-color;
+      text-decoration: none;
+    }
+  }
+
+  &-github {
+    background: $light-purple-color;
+    color: $white-color;
+    &:hover {
+      filter: brightness(130%);
+      color: $white-color;
+      text-decoration: none;
+    }
+  }
+
+  //--- --- BUTTON SIZE: --- ---//
+  &--xl {
+    width: 100%;
+    font-weight: 500;
+    padding: 17px 0px;
+  }
+
+  &--lg {
+    padding: 20px 60px;
+    font-weight: 700;
+  }
+
+  &--md {
+    padding: 15px 36px;
+    // @media screen and (max-width: 567px)
+    @include respond-below(xs) {
+      margin-top: 10px;
+      padding: 19px;
+      width: 100%;
+    }
+  }
+
+  &--sm {
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+  }
+
+  &--xs {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+
+  &--cta {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    min-width: 220px;
+    max-width: 280px;
+    padding: 14px 20px;
+    font-weight: 600;
+  }
+
+  &--input {
+    padding: 3px 6px;
+    font-size: 14px;
+  }
+}

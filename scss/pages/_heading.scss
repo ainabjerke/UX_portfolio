@@ -1,0 +1,116 @@
+// #updates-line {
+//   border: 1px solid #8193b2;
+//   border-top: 1px solid rgba(255, 255, 255, 0.1);
+// }
+
+.heading {
+  &__portfolio {
+    color: $white-color;
+    // margin-top: -490px;
+    // margin-left: 5px;
+    background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 80px;
+
+    // @media screen and (min-width: 768px) and (max-width: 990px)
+    // @include respond-between(sm, md) {
+    //   margin-top: -587px;
+    // }
+    // @media screen and (min-width: 568px) and (max-width: 767px)
+    // @include respond-between(xs, sm) {
+    //   margin-top: -766px;
+    // }
+    // @media screen and (max-width: 567px)
+    // @include respond-below(xs) {
+    //   margin-top: -964px;
+    // }
+  }
+
+  &__portfolio-UX {
+    margin-top: -450px;
+    color: $white-color;
+    // margin-top: 100px;
+    // margin-bottom: -134px;
+    margin-bottom: 45px;
+    background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__skills {
+    color: $white-color;
+    margin-top: 100px;
+    margin-bottom: -134px;
+    background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__frontend {
+    color: $white-color;
+    margin-top: 100px;
+    margin-bottom: -80px;
+    background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    // @media screen and (max-width: 990px)
+    @include respond-below(md) {
+      margin-top: -60px;
+    }
+  }
+
+  &__work--education {
+    color: $white-color;
+    margin-top: 160px;
+    margin-bottom: 50px;
+    background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    // @media screen and (min-width: 768px) and (max-width: 990px)
+    @include respond-between(sm, md) {
+      margin-top: 70px;
+    }
+    // @media screen and (min-width: 568px) and (max-width: 767px)
+    @include respond-between(xs, sm) {
+      margin-top: 60px;
+    }
+    @include respond-below(xs) {
+      margin-top: 70px;
+    }
+  }
+
+  &__about {
+    color: $white-color;
+    margin-top: 138px;
+    margin-bottom: 30px;
+    background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__infobar {
+    color: $white-color;
+    margin-top: 66px;
+    margin-bottom: 37px;
+    background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/*ALL HEADINGS: */
+#portfolio,
+#aboutme,
+#contact,
+#workandeducation,
+#Skills-and-tools {
+  scroll-margin-top: 200px;
+}

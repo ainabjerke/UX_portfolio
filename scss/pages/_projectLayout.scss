@@ -1,0 +1,64 @@
+/*** *** *** PRODUCT LAYOUT:  *** *** ***/
+
+//--- --- PRODUCT LAYOUT STYLE: --- ---//
+.header {
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 2px;
+}
+
+.project {
+  margin: 30px 0;
+  padding: 10px;
+  text-align: center;
+
+  // @media screen and (min-width: 568px) and (max-width: 991px)
+  @include respond-between(xs, md) {
+    padding: 10px 20px;
+  }
+
+  &__image {
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    margin-left: -10px;
+    height: 280px;
+    object-fit: fill;
+    @include respond-between(xs, sm) {
+      height: 360px;
+    }
+    @include respond-below(xs) {
+      height: auto;
+    }
+  }
+
+  &__content {
+    padding: 10px;
+    color: $primary-color;
+    &:hover {
+      text-decoration: none;
+      color: $primary-color;
+    }
+  }
+
+  &__title {
+    font-size: 18px;
+    color: white;
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+
+  &__price {
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+    margin-bottom: 28px;
+    width: 100%;
+  }
+
+  &__button {
+    width: 100%;
+  }
+}
