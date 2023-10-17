@@ -177,7 +177,9 @@
 .closeD1,
 .closed2,
 .closeI1,
-.closeI2 {
+.closeI2,
+.closeI3,
+.closeP1 {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -229,6 +231,20 @@
 
 .closeI2:hover,
 .closeI2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeI3:hover,
+.closeI3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeIP1:hover,
+.closeIP1:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
