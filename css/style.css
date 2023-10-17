@@ -882,7 +882,9 @@ body {
 .closeE2,
 .closeE3,
 .closeD1,
-.closed2 {
+.closed2,
+.closeI1,
+.closeI2 {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -920,6 +922,20 @@ body {
 
 .closeD2:hover,
 .closeD2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeI1:hover,
+.closeI1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeI2:hover,
+.closeI2:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -2613,6 +2629,14 @@ body {
 }
 
 #moreModalD2 {
+  display: none;
+}
+
+#moreModalI1 {
+  display: none;
+}
+
+#moreModalI2 {
   display: none;
 }
 
