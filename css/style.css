@@ -1058,7 +1058,11 @@ body {
 /*** *** *** ANIMATION HEROBANNER SECTION:  *** *** ***/
 /*** *** *** ANIMATION ABOUT ME TEXTAREA SECTION:  *** *** ***/
 /*** *** *** PROJECTS, SKILLS, FRONTEND ANIMATION SECTION:  *** *** ***/
-.mySlides {
+.mySlides,
+.mySlidesC2,
+.mySlidesC3,
+.mySlidesC4,
+.mySlidesC5 {
   display: none;
 }
 
@@ -1072,7 +1076,11 @@ body {
 }
 
 /* Slideshow container */
-.slideshow-container {
+.slideshow-container,
+.slideshow-container2,
+.slideshow-container3,
+.slideshow-container4,
+.slideshow-container5 {
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -1096,6 +1104,24 @@ body {
   margin-left: -438px;
   color: #212529;
   margin-left: -457px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .prev,
+.next {
+    margin-left: -346px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .prev,
+.next {
+    margin-left: -53%;
+  }
+}
+@media (max-width: 575px) {
+  .prev,
+.next {
+    margin-left: -55%;
+  }
 }
 
 /* Position the "next button" to the right */
@@ -1132,7 +1158,11 @@ body {
 }
 
 /* The dots/bullets/indicators */
-.dotC1 {
+.dotC1,
+.dotC2,
+.dotC3,
+.dotC4,
+.dotC5 {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -1147,6 +1177,26 @@ body {
 
 .active,
 .dotC1:hover {
+  background-color: #717171;
+}
+
+.active,
+.dotC2:hover {
+  background-color: #717171;
+}
+
+.active,
+.dotC3:hover {
+  background-color: #717171;
+}
+
+.active,
+.dotC4:hover {
+  background-color: #717171;
+}
+
+.active,
+.dotC5:hover {
   background-color: #717171;
 }
 
