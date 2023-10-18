@@ -886,7 +886,10 @@ body {
 .closeI1,
 .closeI2,
 .closeI3,
-.closeP1 {
+.closeP1,
+.closeT1,
+.closeT2,
+.closeT3 {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -950,8 +953,29 @@ body {
   cursor: pointer;
 }
 
-.closeIP1:hover,
-.closeIP1:focus {
+.closeP1:hover,
+.closeP1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeT1:hover,
+.closeT1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeT2:hover,
+.closeT2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeT3:hover,
+.closeT3:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -2829,6 +2853,14 @@ body {
 }
 
 #moreModalP1 {
+  display: none;
+}
+
+#moreModalT1 {
+  display: none;
+}
+
+#moreModalT2 {
   display: none;
 }
 
