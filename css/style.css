@@ -2687,6 +2687,7 @@ body {
 .portfolio-UX01__l__img {
   height: 100%;
   object-fit: contain;
+  margin-left: 20px;
 }
 
 .portfolio-UX01__r__lable {
