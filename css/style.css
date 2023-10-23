@@ -1083,6 +1083,7 @@ body {
 /*** *** *** ANIMATION ABOUT ME TEXTAREA SECTION:  *** *** ***/
 /*** *** *** PROJECTS, SKILLS, FRONTEND ANIMATION SECTION:  *** *** ***/
 .mySlides,
+.mySlidesP1,
 .mySlidesC2,
 .mySlidesC3,
 .mySlidesC4,
@@ -1101,6 +1102,7 @@ body {
 
 /* Slideshow container */
 .slideshow-container,
+.slideshow-containerP1,
 .slideshow-container2,
 .slideshow-container3,
 .slideshow-container4,
@@ -1182,6 +1184,7 @@ body {
 }
 
 /* The dots/bullets/indicators */
+.dotP1,
 .dotC1,
 .dotC2,
 .dotC3,
@@ -1221,6 +1224,11 @@ body {
 
 .active,
 .dotC5:hover {
+  background-color: #717171;
+}
+
+.active,
+.dotP1:hover {
   background-color: #717171;
 }
 
