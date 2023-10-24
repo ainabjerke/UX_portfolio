@@ -1,7 +1,7 @@
-export default function btnReadMoreIndex() {
-  var dots = document.getElementById("dotsIndex");
-  var moreText = document.getElementById("moreIndex");
-  var btnText = document.getElementById("myBtnIndex");
+function btnReadMoreIndexCS1() {
+  var dots = document.getElementById("dotsIndexCS1");
+  var moreText = document.getElementById("moreIndexCS1");
+  var btnText = document.getElementById("myBtnIndexCS1");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";

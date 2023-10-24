@@ -42,6 +42,10 @@
     height: 100%;
     object-fit: contain;
     margin-left: 20px;
+
+    @include respond-below(sm) {
+      margin-left: 0px;
+    }
   }
 }
 
@@ -228,6 +232,13 @@
   display: none;
 }
 
+#moreIndexCS1 {
+  display: none;
+}
+
+#moreIndexCS2 {
+  display: none;
+}
 //read more caseStudyDetail 1 D=detail c02 c02=case02
 
 #moreAccordionTextE1 {

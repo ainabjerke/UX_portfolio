@@ -712,9 +712,19 @@ body {
   margin-top: -221px;
   margin-bottom: 55px;
 }
+@media (max-width: 767px) {
+  .portfolio-UX01-info__img-container {
+    margin-top: 0px;
+  }
+}
 .portfolio-UX01-info__img-container02 {
   margin-top: -110px;
   margin-bottom: 55px;
+}
+@media (max-width: 767px) {
+  .portfolio-UX01-info__img-container02 {
+    margin-top: 0px;
+  }
 }
 
 .breadcrumb {
@@ -799,6 +809,105 @@ body {
 }
 @media (max-width: 767px) {
   .case-study01-jumbotron__define-main-img {
+    height: 344px;
+  }
+}
+.case-study01-jumbotron__ideate-main-img {
+  background-image: url("/images/flex_fit_img_ideate01.jpg");
+  width: 100%;
+  margin-top: 218px;
+  background-position: 0% 0% !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  width: 100%;
+  margin-top: 218px;
+  background-position: 0% 0% !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+@media (min-width: 1200px) {
+  .case-study01-jumbotron__ideate-main-img {
+    height: 550px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .case-study01-jumbotron__ideate-main-img {
+    height: 450px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .case-study01-jumbotron__ideate-main-img {
+    height: 344px;
+  }
+}
+@media (max-width: 767px) {
+  .case-study01-jumbotron__ideate-main-img {
+    height: 344px;
+  }
+}
+.case-study01-jumbotron__prototype-main-img {
+  background-image: url("/images/flex_fit_img_prototype01.jpg");
+  width: 100%;
+  margin-top: 218px;
+  background-position: 0% 0% !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  width: 100%;
+  margin-top: 218px;
+  background-position: 0% 0% !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+@media (min-width: 1200px) {
+  .case-study01-jumbotron__prototype-main-img {
+    height: 550px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .case-study01-jumbotron__prototype-main-img {
+    height: 450px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .case-study01-jumbotron__prototype-main-img {
+    height: 344px;
+  }
+}
+@media (max-width: 767px) {
+  .case-study01-jumbotron__prototype-main-img {
+    height: 344px;
+  }
+}
+.case-study01-jumbotron__test-main-img {
+  background-image: url("/images/flex_fit_img_test01.jpg");
+  width: 100%;
+  margin-top: 218px;
+  background-position: 0% 0% !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  width: 100%;
+  margin-top: 218px;
+  background-position: 0% 0% !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+@media (min-width: 1200px) {
+  .case-study01-jumbotron__test-main-img {
+    height: 550px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .case-study01-jumbotron__test-main-img {
+    height: 450px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .case-study01-jumbotron__test-main-img {
+    height: 344px;
+  }
+}
+@media (max-width: 767px) {
+  .case-study01-jumbotron__test-main-img {
     height: 344px;
   }
 }
@@ -2689,6 +2798,11 @@ body {
   object-fit: contain;
   margin-left: 20px;
 }
+@media (max-width: 767px) {
+  .portfolio-UX01__l__img {
+    margin-left: 0px;
+  }
+}
 
 .portfolio-UX01__r__lable {
   z-index: 1;
@@ -2874,6 +2988,14 @@ body {
 }
 
 #moreEmpathiseTab2 {
+  display: none;
+}
+
+#moreIndexCS1 {
+  display: none;
+}
+
+#moreIndexCS2 {
   display: none;
 }
 

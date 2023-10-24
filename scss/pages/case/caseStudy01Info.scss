@@ -53,10 +53,16 @@
   &__img-container {
     margin-top: -221px;
     margin-bottom: 55px;
+    @include respond-below(sm) {
+      margin-top: 0px;
+    }
   }
   &__img-container02 {
     margin-top: -110px;
     margin-bottom: 55px;
+    @include respond-below(sm) {
+      margin-top: 0px;
+    }
   }
 }
 
