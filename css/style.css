@@ -546,6 +546,34 @@ body {
     height: 344px;
   }
 }
+.case-study01-jumbotron__main-imgCS2 {
+  background-image: url("/images/x_plore_img_01_v1.jpg");
+  width: 100%;
+  margin-top: 218px;
+  background-position: 0% 0% !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+@media (min-width: 1200px) {
+  .case-study01-jumbotron__main-imgCS2 {
+    height: 550px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .case-study01-jumbotron__main-imgCS2 {
+    height: 450px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .case-study01-jumbotron__main-imgCS2 {
+    height: 344px;
+  }
+}
+@media (max-width: 767px) {
+  .case-study01-jumbotron__main-imgCS2 {
+    height: 344px;
+  }
+}
 .case-study01-jumbotron__btn {
   width: 56%;
   margin-top: 14px;
@@ -690,6 +718,39 @@ body {
 }
 @media (max-width: 767px) {
   .case-study01-jumbotron__info-main-img {
+    height: 344px;
+  }
+}
+.case-study01-jumbotron__info-main-imgCS02 {
+  background-image: url("/images/xplore_img_02.jpg");
+  width: 100%;
+  margin-top: 218px;
+  background-position: 0% 0% !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  width: 100%;
+  margin-top: 218px;
+  background-position: 0% 0% !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+@media (min-width: 1200px) {
+  .case-study01-jumbotron__info-main-imgCS02 {
+    height: 550px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .case-study01-jumbotron__info-main-imgCS02 {
+    height: 450px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .case-study01-jumbotron__info-main-imgCS02 {
+    height: 344px;
+  }
+}
+@media (max-width: 767px) {
+  .case-study01-jumbotron__info-main-imgCS02 {
     height: 344px;
   }
 }
