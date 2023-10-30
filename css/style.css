@@ -779,7 +779,7 @@ body {
   }
 }
 .portfolio-UX01-info__img-container02 {
-  margin-top: -110px;
+  margin-top: -33px;
   margin-bottom: 55px;
 }
 @media (max-width: 767px) {
@@ -3210,6 +3210,10 @@ body {
 }
 
 #moreModalT2 {
+  display: none;
+}
+
+#moreModalT3 {
   display: none;
 }
 
