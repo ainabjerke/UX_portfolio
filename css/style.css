@@ -1224,7 +1224,8 @@ body {
 }
 
 /*********************** The Modal (background) ************************/
-.modal {
+.modal,
+.modald1 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -1239,7 +1240,8 @@ body {
 }
 
 /* Modal Content */
-.modal-content {
+.modal-content,
+.modal-contentd1 {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
@@ -3063,6 +3065,8 @@ body {
   height: 100%;
   object-fit: contain;
   margin-left: 20px;
+  float: left;
+  width: 100%;
 }
 @media (max-width: 767px) {
   .portfolio-UX01__l__img {
