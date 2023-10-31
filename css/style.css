@@ -416,6 +416,21 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .heading__portfolio-UX {
+    margin-top: -636px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .heading__portfolio-UX {
+    margin-top: -816px !important;
+  }
+}
+@media (max-width: 575px) {
+  .heading__portfolio-UX {
+    margin-top: -985px !important;
+  }
+}
 .heading__skills {
   color: #ffffff;
   margin-top: 100px;

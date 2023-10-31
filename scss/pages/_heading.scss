@@ -38,6 +38,15 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    @include respond-between(sm, md) {
+      margin-top: -636px !important;
+    }
+    @include respond-between(xs, sm) {
+      margin-top: -816px !important;
+    }
+    @include respond-below(xs) {
+      margin-top: -985px !important;
+    }
   }
 
   &__skills {
