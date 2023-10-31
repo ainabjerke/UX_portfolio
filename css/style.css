@@ -593,6 +593,11 @@ body {
   width: 56%;
   margin-top: 14px;
 }
+@media (max-width: 767px) {
+  .case-study01-jumbotron__btn {
+    width: 100%;
+  }
+}
 .case-study01-jumbotron__text-container {
   max-width: 550px;
   position: absolute;
@@ -602,25 +607,25 @@ body {
 }
 @media (min-width: 1200px) {
   .case-study01-jumbotron__text-container {
-    top: 66%;
+    top: 60%;
     left: 55%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .case-study01-jumbotron__text-container {
-    top: 60%;
+    top: 53%;
     left: 47%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .case-study01-jumbotron__text-container {
-    top: 52%;
+    top: 49%;
     left: 56%;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .case-study01-jumbotron__text-container {
-    top: 54%;
+    top: 49%;
     left: 46%;
   }
 }

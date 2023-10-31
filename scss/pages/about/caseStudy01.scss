@@ -113,6 +113,9 @@
   &__btn {
     width: 56%;
     margin-top: 14px;
+    @include respond-below(sm) {
+      width: 100%;
+    }
   }
 
   &__text-container {
@@ -125,21 +128,21 @@
     text-align: right;
 
     @include respond-above(lg) {
-      top: 66%;
+      top: 60%;
       left: 55%;
     }
     @include respond-between(md, lg) {
-      top: 60%;
+      top: 53%;
       left: 47%;
     }
     @include respond-between(sm, md) {
       // top: 56%;
       // left: 36%;
-      top: 52%;
+      top: 49%;
       left: 56%;
     }
     @include respond-between(xs, sm) {
-      top: 54%;
+      top: 49%;
       left: 46%;
     }
 
