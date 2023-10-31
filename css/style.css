@@ -1205,13 +1205,15 @@ body {
 /* Change background color of buttons on hover */
 .tab button:hover {
   text-decoration: underline;
-  color: #1ed0d0;
+  color: #1ed0d0 !important;
+  color: #646673;
 }
 
 /* Create an active/current tablink class */
-.tab button.active {
+.tab button.TabActive {
   text-decoration: underline;
-  color: #1ed0d0;
+  color: #1ed0d0 !important;
+  background-color: #646673 !important;
 }
 
 /* Style the tab content */
@@ -3004,26 +3006,31 @@ body {
 @media (min-width: 1200px) {
   .closeOne {
     right: 9rem;
+    top: 13rem;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .closeOne {
     right: 3rem;
+    top: 13rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .closeOne {
     right: 5rem;
+    top: 13rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .closeOne {
     right: 5rem;
+    top: 13rem;
   }
 }
 @media (max-width: 575px) {
   .closeOne {
     right: 2rem;
+    top: 13rem;
   }
 }
 

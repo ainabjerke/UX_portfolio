@@ -386,13 +386,17 @@
 /* Change background color of buttons on hover */
 .tab button:hover {
   text-decoration: underline;
-  color: #1ed0d0;
+  color: #1ed0d0 !important;
+  color: #646673;
 }
 
 /* Create an active/current tablink class */
-.tab button.active {
+.tab button.TabActive {
   text-decoration: underline;
-  color: #1ed0d0;
+  // color: #1ed0d0;
+  color: #1ed0d0 !important;
+  // color: #646673;
+  background-color: #646673 !important;
 }
 
 /* Style the tab content */
