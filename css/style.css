@@ -619,14 +619,14 @@ body {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .case-study01-jumbotron__text-container {
-    top: 49%;
-    left: 56%;
+    top: 43%;
+    left: 44%;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .case-study01-jumbotron__text-container {
     top: 49%;
-    left: 46%;
+    left: 35%;
   }
 }
 @media (min-width: 400px) and (max-width: 575px) {
@@ -639,6 +639,7 @@ body {
   .case-study01-jumbotron__text-container {
     top: 58%;
     left: 46%;
+    margin-top: 48px;
   }
 }
 @media (max-width: 991px) {
