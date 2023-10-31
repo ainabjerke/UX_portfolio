@@ -125,21 +125,31 @@
     text-align: right;
 
     @include respond-above(lg) {
-      top: 61%;
+      top: 66%;
       left: 55%;
     }
     @include respond-between(md, lg) {
-      top: 54%;
+      top: 60%;
       left: 47%;
     }
     @include respond-between(sm, md) {
       // top: 56%;
       // left: 36%;
-      top: 45%;
+      top: 52%;
       left: 56%;
     }
-    @include respond-below(sm) {
-      top: 45%;
+    @include respond-between(xs, sm) {
+      top: 54%;
+      left: 46%;
+    }
+
+    @include respond-between(xxs, xs) {
+      top: 53%;
+      left: 46%;
+    }
+
+    @include respond-below(xxs) {
+      top: 58%;
       left: 46%;
     }
   }

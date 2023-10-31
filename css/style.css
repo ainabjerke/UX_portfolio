@@ -602,25 +602,37 @@ body {
 }
 @media (min-width: 1200px) {
   .case-study01-jumbotron__text-container {
-    top: 61%;
+    top: 66%;
     left: 55%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .case-study01-jumbotron__text-container {
-    top: 54%;
+    top: 60%;
     left: 47%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .case-study01-jumbotron__text-container {
-    top: 45%;
+    top: 52%;
     left: 56%;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .case-study01-jumbotron__text-container {
-    top: 45%;
+    top: 54%;
+    left: 46%;
+  }
+}
+@media (min-width: 400px) and (max-width: 575px) {
+  .case-study01-jumbotron__text-container {
+    top: 53%;
+    left: 46%;
+  }
+}
+@media (max-width: 399px) {
+  .case-study01-jumbotron__text-container {
+    top: 58%;
     left: 46%;
   }
 }
