@@ -3103,6 +3103,10 @@ body {
     padding: 0.3rem 0.3rem;
   }
 }
+.portfolio-UX01__r__grade {
+  padding-top: 16px;
+  margin-bottom: -14px;
+}
 .portfolio-UX01__r__heading {
   font-size: 1.8rem;
 }
