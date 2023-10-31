@@ -417,17 +417,17 @@ body {
   -webkit-text-fill-color: transparent;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .heading__portfolio-UX {
+  .heading__portfolio-UX-index {
     margin-top: -636px !important;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-  .heading__portfolio-UX {
+  .heading__portfolio-UX-index {
     margin-top: -816px !important;
   }
 }
 @media (max-width: 575px) {
-  .heading__portfolio-UX {
+  .heading__portfolio-UX-index {
     margin-top: -985px !important;
   }
 }
@@ -507,7 +507,7 @@ body {
 }
 
 .case-study01 {
-  margin-top: 700px;
+  margin-top: 600px;
 }
 
 .case-study01__r__check-container {

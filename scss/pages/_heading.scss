@@ -38,6 +38,9 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  &__portfolio-UX-index {
     @include respond-between(sm, md) {
       margin-top: -636px !important;
     }

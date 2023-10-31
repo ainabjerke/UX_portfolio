@@ -1,8 +1,39 @@
 .case-study01 {
-  margin-top: 700px;
-
+  margin-top: 600px;
+  // @include respond-between(md, lg) {
+  //   margin-top: -636px !important;
+  // }
+  // @include respond-between(sm, md) {
+  //   margin-top: 0px !important;
+  // }
+  // @include respond-below(xs) {
+  //   margin-top: 0px !important;
+  // }
   // &__lists {
   //   list-style-type: none;
+  // }
+  // @include respond-between(sm, md) {
+  //   margin-top: -636px !important;
+  // }
+  // @include respond-between(xs, sm) {
+  //   margin-top: -816px !important;
+  // }
+  // @include respond-below(xs) {
+  //   margin-top: -985px !important;
+  // }
+  // &__heading {
+  //   @include respond-aboce(lg) {
+  //     margin-top: 600px;
+  //   }
+  //   @include respond-between(md, lg) {
+  //     margin-top: -636px !important;
+  //   }
+  //   @include respond-between(sm, md) {
+  //     margin-top: 0px !important;
+  //   }
+  //   @include respond-below(sm) {
+  //     margin-top: 0px !important;
+  //   }
   // }
 }
 .case-study01__r {
