@@ -44,6 +44,34 @@
     margin-left: 20px;
     float: left;
     width: 100%;
+    height: 500px;
+
+    @include respond-above(lg) {
+      // width: 153px;
+      // left: 81%;
+    }
+    @include respond-between(md, lg) {
+      // width: 153px;
+      // left: 77%;
+    }
+    @include respond-between(sm, md) {
+      // width: 152px;
+      // left: 68%;
+    }
+    @include respond-between(xxs, sm) {
+      // // width: 100%;
+      // width: 34.5%;
+      // margin-right: auto;
+      // // margin-left: 325px;
+      // margin-left: 70%;
+    }
+    @include respond-below(xxs) {
+      // // width: 100%;
+      // width: 36.5%;
+      // margin-right: auto;
+      // // margin-left: 325px;
+      // margin-left: 70%;
+    }
 
     @include respond-below(sm) {
       margin-left: 0px;

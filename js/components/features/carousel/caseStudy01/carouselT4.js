@@ -23,8 +23,8 @@ function showSlidesC4(n) {
     slides[i].style.display = "none";
   }
   for (i = 0; i < dotsC4.length; i++) {
-    dotsC4[i].className = dotsC4[i].className.replace(" active", "");
+    dotsC4[i].className = dotsC4[i].className.replace(" activeAccordion", "");
   }
   slides[slideIndexC4 - 1].style.display = "block";
-  dotsC4[slideIndexC4 - 1].className += " active";
+  dotsC4[slideIndexC4 - 1].className += " activeAccordion";
 }
