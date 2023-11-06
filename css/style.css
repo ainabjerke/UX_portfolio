@@ -3112,6 +3112,44 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.portfolio-UX01__instagram {
+  margin-left: -23px !important;
+}
+
+.portfolio-UX01-info__container-instagram {
+  margin-top: 0px;
+}
+.portfolio-UX01-info__img-container-instagram {
+  margin-top: -400px;
+  width: 595px;
+  height: 267px;
+  object-fit: contain;
+}
+.portfolio-UX01-info__heading-instagram {
+  margin-bottom: 56px;
+  margin-top: -377px;
+}
+@media (max-width: 767px) {
+  .portfolio-UX01-info__heading-instagram {
+    margin-top: -128px;
+    text-align: center;
+  }
+}
+.portfolio-UX01-info__img-container-instagram-p {
+  margin-top: -31px;
+}
+@media (max-width: 767px) {
+  .portfolio-UX01-info__img-container-instagram-p {
+    text-align: center;
+  }
+}
+.portfolio-UX01-info__instagram-button {
+  margin-top: 22px;
+}
+
+.portfolio-UX01 {
+  margin-bottom: 80px;
+}
 @media (min-width: 992px) {
   .portfolio-UX01 {
     width: 101%;
