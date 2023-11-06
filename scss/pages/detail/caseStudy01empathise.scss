@@ -5,11 +5,35 @@
   background-color: #070c2c !important;
   background-color: none !important;
   background-color: transparent !important;
+  margin-top: -48px;
+  margin-bottom: -190px;
+  background-color: #070c2c !important;
+  background-color: none !important;
+  background-color: #070c2c;
+  background-color: rgb(7, 12, 44);
+  position: fixed;
+  width: 92%;
+  z-index: 2;
+  margin-left: -13px;
+  border: none !important;
+  // margin-top: -123px;
+  @include respond-between(md, lg) {
+    margin-top: -50px;
+  }
+  @include respond-between(sm, md) {
+    margin-top: -122px;
+  }
+
+  @include respond-below(sm) {
+    margin-top: -122px;
+    width: 100%;
+  }
   &__styling {
+    // background-color: #070c2c !important;
+    // background-color: none !important;
+    // background-color: transparent !important;
     background-color: #070c2c !important;
-    background-color: none !important;
-    background-color: transparent !important;
-    color: #1ed0d0;
+    color: #1ed0d0 !important;
   }
   .breadcrumb-item {
     &__active {

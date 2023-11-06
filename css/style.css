@@ -114,6 +114,8 @@ https://glennmccomb.com/articles/useful-sass-scss-media-query-mixins-for-bootstr
 
 .prototype__btn {
   margin-top: 20px;
+  margin-top: 49px;
+  margin-bottom: -12px;
 }
 @media (min-width: 1200px) {
   .prototype__btn {
@@ -459,6 +461,9 @@ body {
     margin-top: -985px !important;
   }
 }
+.heading__portfolio-frontend {
+  margin-top: -66px;
+}
 .heading__skills {
   color: #ffffff;
   margin-top: 100px;
@@ -535,7 +540,7 @@ body {
 }
 
 .case-study01 {
-  margin-top: 600px;
+  margin-top: 517px;
 }
 
 .case-study01__r__check-container {
@@ -635,37 +640,37 @@ body {
 }
 @media (min-width: 1200px) {
   .case-study01-jumbotron__text-container {
-    top: 60%;
-    left: 55%;
+    top: 55%;
+    left: 53%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .case-study01-jumbotron__text-container {
-    top: 53%;
+    top: 47%;
     left: 47%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .case-study01-jumbotron__text-container {
-    top: 43%;
+    top: 39%;
     left: 44%;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .case-study01-jumbotron__text-container {
-    top: 49%;
+    top: 40%;
     left: 35%;
   }
 }
 @media (min-width: 400px) and (max-width: 575px) {
   .case-study01-jumbotron__text-container {
-    top: 53%;
+    top: 36%;
     left: 46%;
   }
 }
 @media (max-width: 399px) {
   .case-study01-jumbotron__text-container {
-    top: 58%;
+    top: 43%;
     left: 46%;
     margin-top: 48px;
   }
@@ -694,7 +699,7 @@ body {
 }
 .case-study01__container-infoBar {
   position: relative;
-  z-index: 2;
+  z-index: 1;
   margin-left: 99px;
   background: #646673;
   color: white;
@@ -856,12 +861,37 @@ body {
   background-color: #070c2c !important;
   background-color: none !important;
   background-color: transparent !important;
+  margin-top: -48px;
+  margin-bottom: -190px;
+  background-color: #070c2c !important;
+  background-color: none !important;
+  background-color: #070c2c;
+  background-color: rgb(7, 12, 44);
+  position: fixed;
+  width: 92%;
+  z-index: 2;
+  margin-left: -13px;
+  border: none !important;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .breadcrumb {
+    margin-top: -50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .breadcrumb {
+    margin-top: -122px;
+  }
+}
+@media (max-width: 767px) {
+  .breadcrumb {
+    margin-top: -122px;
+    width: 100%;
+  }
 }
 .breadcrumb__styling {
   background-color: #070c2c !important;
-  background-color: none !important;
-  background-color: transparent !important;
-  color: #1ed0d0;
+  color: #1ed0d0 !important;
 }
 .breadcrumb .breadcrumb-item__active {
   color: white;
@@ -2489,7 +2519,16 @@ body {
 }
 
 .footer__case-study01 {
-  margin-top: 500px;
+  margin-top: auto;
+  margin-left: -10px !important;
+  margin-right: -7px !important;
+}
+.footer__case-study01-l {
+  max-width: none !important;
+  width: auto;
+}
+.footer__case-study01-l-styling {
+  margin-top: 80px;
 }
 
 .work-education__img {
