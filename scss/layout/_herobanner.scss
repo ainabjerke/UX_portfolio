@@ -105,6 +105,9 @@
     margin-top: 5px;
     margin-bottom: -18px;
     margin-left: -179px !important;
+    @include respond-below(xs) {
+      margin-left: 0px !important;
+    }
   }
 
   &__img--tertiary {

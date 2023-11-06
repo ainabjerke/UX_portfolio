@@ -664,7 +664,7 @@ body {
 }
 @media (min-width: 400px) and (max-width: 575px) {
   .case-study01-jumbotron__text-container {
-    top: 36%;
+    top: 38%;
     left: 46%;
   }
 }
@@ -2730,6 +2730,11 @@ body {
   margin-top: 5px;
   margin-bottom: -18px;
   margin-left: -179px !important;
+}
+@media (max-width: 575px) {
+  .herobanner__subheading-UI-UX {
+    margin-left: 0px !important;
+  }
 }
 .herobanner__img--tertiary {
   display: none;
