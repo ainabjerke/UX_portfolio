@@ -54,6 +54,9 @@
 
   &__portfolio-frontend {
     margin-top: -66px;
+    @include respond-below(sm) {
+      margin-top: 130px;
+    }
   }
 
   &__skills {
