@@ -2687,6 +2687,11 @@ body {
     top: -465px;
   }
 }
+.herobanner__subheading-UI-UX {
+  margin-top: 5px;
+  margin-bottom: -18px;
+  margin-left: -179px !important;
+}
 .herobanner__img--tertiary {
   display: none;
 }
