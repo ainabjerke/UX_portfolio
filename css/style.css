@@ -570,6 +570,35 @@ body {
 .case-study01__r__icon {
   color: #20818c;
 }
+.case-study01__r__check-container-index {
+  position: relative;
+  margin: 0px 22px 37px 0px;
+  margin-bottom: 37px;
+  margin-bottom: 37px;
+  padding: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+@media (min-width: 1200px) {
+  .case-study01__r__check-container-index {
+    column-count: 4;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .case-study01__r__check-container-index {
+    column-count: 3;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .case-study01__r__check-container-index {
+    column-count: 2;
+  }
+}
+@media (max-width: 767px) {
+  .case-study01__r__check-container-index {
+    column-count: 2;
+  }
+}
 
 .case-study01-jumbotron__main-img {
   background-image: url("/images/flex_fit_img_01.jpg");

@@ -56,6 +56,27 @@
   &__icon {
     color: #20818c;
   }
+  &__check-container-index {
+    position: relative;
+    margin: 0px 22px 37px 0px;
+    margin-bottom: 37px;
+    margin-bottom: 37px;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    @include respond-above(lg) {
+      column-count: 4;
+    }
+    @include respond-between(md, lg) {
+      column-count: 3;
+    }
+    @include respond-between(sm, md) {
+      column-count: 2;
+    }
+    @include respond-below(sm) {
+      column-count: 2;
+    }
+  }
 }
 
 .case-study01-jumbotron {
